@@ -4,8 +4,6 @@
 
 * There are some changes that need to be followed to update to OpenCore 0.6.6 and newer from previous versions(OpenCore 0.6.5 and below)
 * For users who are installing for the first time enable AppleCpuPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks 
-* Use [this link](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock) to unlock MSR register for native Power management as it's different for every Boards.
-
 * Please read [this Reddit Post](https://www.reddit.com/r/hackintosh/comments/lb2456/psa_opencore_066_will_require_you_to_jump_through/) and [this page](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6) from Dortania guide before proceeding.
 
 <img align="right" src="https://imgur.com/25u1lIk.jpg" width="300">
@@ -130,6 +128,8 @@ You need to plug in the installation USB created previously everytime you start 
 </br>
 
 - In order to get Apple Services like App Store working, you need to generate your own SMBIOS(The included one is only for reference).
+- Use [this guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock) to unlock MSR register and enable native Power management as it's different for every Boards.
+
 
 - For more information on how to do that, visit the [Dortania Guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial).
 
