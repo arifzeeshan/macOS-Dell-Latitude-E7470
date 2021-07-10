@@ -3,6 +3,8 @@
 ## Important [OpenCore 0.6.6 update and newer]
 
 * There are some changes that need to be followed to update to OpenCore 0.6.6 and newer from previous versions(OpenCore 0.6.5 and below)
+* For users who are installing for the first time enable AppleCpuPmCfgLock and AppleXcpmCfgLock under Kernel -> Quirks 
+* Use [this link] (https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock) to unlock MSR register for native Power management as it's different for every Boards.
 
 * Please read [this Reddit Post](https://www.reddit.com/r/hackintosh/comments/lb2456/psa_opencore_066_will_require_you_to_jump_through/) and [this page](https://dortania.github.io/OpenCore-Post-Install/multiboot/bootstrap.html#updating-bootstrap-in-0-6-6) from Dortania guide before proceeding.
 
