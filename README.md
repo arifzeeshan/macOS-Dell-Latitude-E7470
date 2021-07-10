@@ -128,10 +128,16 @@ You need to plug in the installation USB created previously everytime you start 
 </br>
 
 - In order to get Apple Services like App Store working, you need to generate your own SMBIOS(The included one is only for reference).
-- Use [this guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock) to unlock MSR register and enable native Power management as it's different for every Boards.
 
 
 - For more information on how to do that, visit the [Dortania Guide](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial).
+
+</details>
+
+<details>
+  <summary><strong>Enable Native Power Mangement</strong></summary>
+  </br>
+  - Use [this guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock) to unlock MSR register and enable native Power management as it's different for every Boards.
 
 </details>
 
