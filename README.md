@@ -138,6 +138,7 @@ You need to plug in the installation USB created previously everytime you start 
   <summary><strong>Enable Native Power Mangement</strong></summary>
   </br>
   - Use [this guide](https://dortania.github.io/OpenCore-Post-Install/misc/msr-lock.html#what-is-cfg-lock) to unlock MSR register and enable native Power management as it's different for every Boards.
+ 
 
 </details>
 
